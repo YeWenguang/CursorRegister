@@ -63,7 +63,7 @@ def sign_up(options):
     # Get temp email address
     #mail = Tempmail_io()
     #mail = Guerillamail_com()
-    mail = TenMinEmail().com()
+    mail = TenMinEmail()
     email = mail.email
 
     # Get password and name by faker
